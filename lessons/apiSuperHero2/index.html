@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+  <title>jsApiSuperHeroes</title>
+</head>
+
+<body class="d-flex justify-content-center">
+  <div class=" wrapper">
+    <br>
+    <div class="text-center">
+      <h2>⭐ Super Hero App ⭐</h2>
+      <br>
+      <p>You can search for a super hero </p>
+      <p>- for example 'Thanos' or 'Silver surfer' -</p>
+      <p>... or you can generate a random super hero.</p>
+    </div>
+    <br>
+    <div class="d-flex justify-content-between">
+      <input type="text" id="searchHero">
+      <button id='heroButton'>Random Hero</button>
+    </div>
+    <br>
+    <div id="heroMultipleResultsNotification" class="d-flex justify-content-between"></div>
+    <!-- this can maybe work with AJAX -->
+    <!-- let see -->
+    <!-- <div id="heroMultipleResultsList" class="d-flex justify-content-between flex-wrap"></div> -->
+    <br>
+    <div id="heroInfo">
+      <div id="heroImage"><img src="" alt=""></div>
+      <header>
+        <!-- <div id="heroType">heroType</div> -->
+        <div id="heroName">heroName</div>
+        <!-- <div id="heroHealthPoints">heroHealthPoints</div> -->
+      </header>
+      <footer>
+        <!-- <div id="heroAttack">heroAttack</div>
+        <div id="heroAttackPoints">heroAttackPoints</div>
+        <div id="heroAttackDescription">heroAttackDescription</div>
+        <div id="heroPowerStats">heroPowerStats</div>
+        <div id="heroAttackDescription">heroAttackDescription</div> -->
+      </footer>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
